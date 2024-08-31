@@ -1,0 +1,84 @@
+.diyOrange{color:#FF7A1B}
+.diyGreen{color:#0CAF66}
+.diyRed{color:#FF3D29}
+.diyBlue{color:#1B78F4}
+.diyYellow{color:#FFCB3D}
+//状态圆点
+.statusCircle{
+  width:4px;
+  height: 4px;
+  border-radius: 50%;
+  margin-left: 6px;
+  margin-right:4px;
+  line-height: 17px;
+}
+.statustag{
+  display: inline;
+  border-radius: 3px;
+  padding: 3px 11px;
+}
+//状态圆点背景
+.diyBgOrange{background-color:#FF7A1B}
+.diyBgGreen{background-color:#0CAF66}
+.diyBgRed{background-color:#FF3D29}
+.diyBgBlue{background-color:#1B78F4}
+.diyBgYellow{background-color:#FFCB3D}
+//状态统一间距
+.mr-4{margin-right:4px}
+
+.diyBg-FF3D29{background-color:#FF3D29}
+.diyBg-FF7A1B{background-color:#FF7A1B}
+.diyBg-0CAF66{background-color:#0CAF66}
+.diyBg-FFCB3D{background-color:#FFCB3D}
+.diyBg-D9E1E7{background-color:#D9E1E7}
+.diyBg-EDFFEF{background-color:#EDFFEF}
+.diyBg-40B557{background-color:#40B557}
+.diyBg-FFF2F0{background-color:#FFF2F0}
+.diyBg-F56455{background-color:#F56455}
+.diyBg-FFF9F0{background-color:#FFF9F0}
+.diyBg-FE7E48{background-color:#FE7E48}
+.diyBg-EDF5FF{background-color:#EDF5FF}
+.diyBg-1B78F4{background-color:#1B78F4}
+
+.statusOrange{
+  color:#FF7A1B;
+  &::before{
+    background-color:#FF7A1B
+  }
+}
+.statusGreen{
+  color:#0CAF66;
+  &::before{
+    background-color:#0CAF66
+  }
+}
+.statusRed{
+  color:#FF3D29;
+  &::before{
+    background-color:#FF3D29
+  }
+}
+.statusBlue{
+  color:#1B78F4;
+  &::before{
+    background-color:#1B78F4
+  }
+}
+.statusYellow{
+  color:#FFCB3D;
+  &::before{
+    background-color:#FFCB3D
+  }
+}
+.statusOrange,.statusGreen,.statusRed,.statusBlue,.statusYellow{
+  &::before{
+    content: "";
+    display: inline-block;
+    width:4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-right:4px;
+    line-height: 17px;
+    vertical-align: middle;
+  }
+}

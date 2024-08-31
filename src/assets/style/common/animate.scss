@@ -1,0 +1,25 @@
+.bounceInDownCss {
+    //向下弹跳进入
+    animation-name: bounceInDown;
+    animation-duration: 2s;
+}
+.bounceInUpCss {
+    //向上弹跳进入
+    animation-name: bounceInUp;
+    animation-duration: 2s;
+}
+.flipInXCss {
+    //垂直翻转动画
+    animation-name: flipInX;
+    animation-duration: 3s;
+}
+.zoomInCss {
+    //放大进入
+    animation-name: zoomIn;
+    animation-duration: 2s;
+}
+.fadeInCss {
+    //淡入
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
